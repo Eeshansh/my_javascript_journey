@@ -30,7 +30,7 @@ let negvalue = -value
 let str1 = "Hello"
 let str2 = " EB"
 
-let str3 = str1 + str2
+let str3 = str1 + str2 
 
 // console.log(+""); 
 
