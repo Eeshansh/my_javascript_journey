@@ -1,9 +1,16 @@
 const account_id = 144553  //cannot change this value for account_id variable
 let account_email = "Eeshansh@google.com"
 var account_password = "12345"
-account_city = "Jaipur"
+let account_state
+let account_city = "Jaipur"
 
 
-account_id = 2
+account_email = "hc18@hc.com"
+account_password = "54321"
+account_city = "Bangalore"
 
-console.log(account_id);
+/* Avoid using 'var' in the javascript because it gave block scope and functional scope issues.
+Always use 'let' and 'const'*/
+
+// console.log(account_email);
+console.table([account_id, account_password, account_state, account_city, account_email])
